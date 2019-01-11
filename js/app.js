@@ -1,3 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("example");
+   function GameOfLife(width, height) {
+       this.boardWidth = width;
+       this.boardHeight = height;
+    }
+
 });
